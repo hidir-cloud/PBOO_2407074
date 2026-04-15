@@ -1,11 +1,11 @@
 package latihan_inheritance;
 
 public class BangunDatar {
-    // atribut dibuat private (enkapsulasi)
+    // atribut private (enkapsulasi)
     private double panjang;
     private double lebar;
 
-    // constructor untuk mengisi nilai awal
+    // constructor
     public BangunDatar(double panjang, double lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
@@ -23,6 +23,6 @@ public class BangunDatar {
 
     // method
     public double hitungLuas() {
-        return panjang * lebar;
+        return panjang * lebar * 2;
     }
 }
